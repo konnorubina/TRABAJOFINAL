@@ -1,0 +1,129 @@
+<body">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Konno</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./quiensoy.html">¿Quien soy?</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Portafolio
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="./proyecto1.html">Proyecto 1</a></li>
+                                <li><a class="dropdown-item" href="./proyecto2.html">Proyecto 2</a></li>
+                                <li><a class="dropdown-item" href="./proyecto3.html">Proyecto 3</a></li>
+                                <li><a class="dropdown-item" href="./proyecto4.html">Proyecto 4</a></li>
+                                <li><a class="dropdown-item" href="./proyecto5.html">Proyecto 5</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/imgs/Top 2016 Apps for Your Life.jpg" class="d-block w-100"
+                        alt="marketing digital">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Marketing digital</h3>
+                        <p> Nuestro servicio de marketing digital, combinamos estrategia, creatividad y análisis para
+                            ayudarte a alcanzar tus objetivos.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/imgs/digital-marketing-1433427_1280.jpg" class="d-block w-100"
+                        alt="asesoria financiera">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Asesoria financiera</h3>
+                        <p>Ofrecemos servicios personalizados que van desde la planificación financiera hasta la gestión
+                            de inversiones y el asesoramiento en jubilación. Con nuestra ayuda, puedes tomar decisiones
+                            financieras informadas que te conducirán hacia tus objetivos económicos. </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/imgs/0e44e8005bfb9e9de1c1455f6fae6e56.jpg" class="d-block w-100" alt="coding">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Desarrollo Web</h3>
+                        <p>Creamos sitios web personalizados, funcionales y visualmente atractivos que impulsarán tu
+                            negocio.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div>
+            <form class="cuponera">
+                <legend class="titulokupon"><strong>¡Contactame!</strong></legend>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+                </div>
+
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                        placeholder="Correo Electronico">
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                </div>
+                <div class="botonkupon" style="margin-bottom: 25px;">
+                    <button type="Enviar" class="btn text-bg-dark">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <h3 class="footertitle"><strong>Konno</strong></h3>
+        <p class="footerpar">© 2023 Felipe Konno. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+        </script>
+    </body>
