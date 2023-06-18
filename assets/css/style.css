@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+.main{font-family: 'Raleway', sans-serif;}
+.body{font-family: 'Raleway', sans-serif;}
+
+.avatar{display: flex;
+justify-content: center;}
