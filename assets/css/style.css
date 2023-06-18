@@ -3,5 +3,20 @@
 .main{font-family: 'Raleway', sans-serif;}
 .body{font-family: 'Raleway', sans-serif;}
 
-.avatar{display: flex;
-justify-content: center;}
+.footer{
+    padding: 20px;
+    background-color: #212529;
+}
+
+.footertitle {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.footerpar {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
